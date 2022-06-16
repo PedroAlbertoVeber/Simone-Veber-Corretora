@@ -1,0 +1,98 @@
+.conteudo {
+    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.introducao h2{
+    text-align: center;
+    font-family: 'Updock', cursive;
+    font-size: 4rem;
+}
+
+.introducao p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border-color: rgba(200,200,200,.2);
+    position: relative;
+}
+
+.titulo-formulario {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.titulo-container {
+    margin-bottom: 3rem;
+}
+
+.dados-imovel {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dados-imovel label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding-right: 1rem;
+}
+
+.dados-imovel input, .dados-imovel select {
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    max-width: 600px;
+    margin-top: .5rem;
+}
+
+.dados-imovel input::placeholder, .dados-imovel option, .selection, .construcao{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#pais {
+    font-family: 'Poppins', sans-serif;
+    color: #606060;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.coluna-1 {
+    text-align: center;
+}
+
+.coluna-2 {
+    text-align: center;
+}
+
+.botao-enviar {
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    margin: auto;
+    background-color: #142a45;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .2s;
+    margin-top: 3rem;
+}
+
+.botao-enviar:hover {
+    cursor: pointer;
+    background-color: #1e3e66;
+    transform: scale(1.05);
+}
+
+

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simone Veber | Corretora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Updock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/vender-imovel.css">
+    <link rel="stylesheet" href="../assets/css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__titulo">
+            <h1 class="cabecalho__titulo-main">
+                Simone Veber
+            </h1>
+            <h2 class="cabecalho__titulo-sub">
+                corretora | creci 35058
+            </h2>
+        </div>
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__menu">
+                <a href="./comprar-imovel.html" class="cabecalho__menu-link">
+                    <li class="cabecalho__menu-item">
+                        Quero comprar um imóvel
+                    </li>
+                </a>
+                <a href="./index.html" class="cabecalho__menu-link">
+                    <li class="cabecalho__menu-item">
+                        Home
+                    </li>
+                </a>
+                <a href="#contato" class="cabecalho__menu-link">
+                    <li class="cabecalho__menu-item">
+                        Contato
+                    </li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <div class="introducao">
+            <h2 class="titulo-principal">Venda de Imóvel</h2>
+            <p class = 'legenda'>Está desejando vender o seu imóvel? Preencha o formulário abaixo para pré-agendar uma visita para avaliação do seu imóvel.</p>
+        </div>
+        <form action="#" class="formulario-venda">
+            <fieldset class="container">
+                <div class="titulo-container">
+                    <h3 class="titulo-formulario">Dados do Imóvel</h3>
+                </div>
+                <div class="dados-imovel">
+                    <div class="modelo-imovel">
+                        <div class="coluna-1">
+                            <label for="#modelo" class="label">
+                                Selecione o modelo do seu imóvel:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <select name = "modelo" id="modelo" class="selection">
+                                <option value="casa" class="option">Casa/Sobrado</option>
+                                <option value="apartamento" class="option">Apartamento/Flat</option>
+                                <option value="casa-condominio" class="option">Casa em condomínio fechado</option>
+                                <option value="terreno" class="option">Terreno</option>
+                                <option value="pavilhao" class="option">Pavilhão</option>
+                                <option value="sala-comercial" class="option">Sala Comercial</option>
+                                <option value="outros" class="option">Outros</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contrucao">
+                        <div class="coluna-1">
+                            <label for="#construcao">
+                                Selecione a construção do seu imóvel:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <select name="construcao" id="construcao" class="construcao">
+                                <option value="alvenaria-solida" class="option">Alvenaria Sólida</option>
+                                <option value="alvenaria-superior" class="option">Alvenaria Superior</option>
+                                <option value="mista" class="option">Mista (Madeira e Alvenaria)</option>
+                                <option value="madeira" class="option">Madeira</option>
+                                <option value="none" class="option">Nenhuma Construção</option>
+                                <option value="outros" class="option">Outros</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="container">
+                <div class="titulo-container">
+                    <h3 class="titulo-formulario">
+                        Endereço / Localização
+                    </h3>
+                </div>
+                <div class="dados-imovel">
+                    <div class="logradouro">
+                        <div class="coluna-1">
+                            <label for="logradouro">
+                                Rua:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="text" name="logradouro" id="logradouro" required placeholder="Digite o nome da rua do seu imóvel">
+                        </div>
+                    </div>
+                    <div class="numero">
+                        <div class="coluna-1">
+                            <label for="numero">
+                                Número:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="number" name="numero" id="numero" placeholder="Nº XXX" required>
+                        </div>
+                    </div>
+                    <div class="complemento">
+                        <div class="coluna-1">
+                            <label for="complemento">
+                                Complemento:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="text" name="complemento" id="complemento" placeholder="Opcional">
+                        </div>
+                    </div>
+                    <div class="bairro">
+                        <div class="coluna-1">
+                            <label for="bairro">
+                                Bairro:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="text" name="bairro" id="bairro" required>
+                        </div>
+                    </div>
+                    <div class="cidade">
+                        <div class="coluna-1">
+                            <label for="cidade">
+                                Cidade:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="text" name="cidade" id="cidade" required>
+                        </div>
+                    </div>
+                    <div class="estado">
+                        <div class="coluna-1">
+                            <label for="estado">
+                                Estado:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="text" name="estado" id="estado" required>
+                        </div>
+                    </div>
+                    <div class="pais">
+                        <div class="coluna-1">
+                            <label for="#pais">
+                                País:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="text" name="pais" id="pais" value="Brasil" readonly>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="container">
+                <div class="dados-imovel">
+                    <div class="titulo-container">
+                        <h3 class="titulo-formulario">
+                            Dados de Contato
+                        </h3>
+                    </div>
+                    <div class="nome">
+                        <div class="coluna-1">
+                            <label for="nome">
+                                Nome:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+                        </div>
+                    </div>
+                    <div class="email">
+                        <div class="coluna-1">
+                            <label for="email">
+                                E-mail:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="email" name="email" id="email" required placeholder="nome@example.com">
+                        </div>
+                    </div>
+                    <div class="celular">
+                        <div class="coluna-1">
+                            <label for="celular">
+                                Celular:
+                            </label>
+                        </div>
+                        <div class="coluna-2">
+                            <input type="tel" name="celular" id="celular" required placeholder="(XX) XXXX-XXXX">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <button type="submit" class="botao-enviar" id="enviarDados" onclick="enviarDadosEmail()">Enviar dados</button>
+    </main>
+    <footer class="contato" id="contato">
+        <h2 class="contato__titulo">
+            Contato
+        </h2>
+        <div class="contato__redes">
+            <a class="contato__link" href="#">
+                <img src="../assets/img/WhatsApp.jpg" alt="imagem logo WhatsApp" class="contato__link-img">
+            </a>
+            <a href="https://www.facebook.com/simone.veber.94" target="_blank"  class="contato__link">
+                <img src="../assets/img/Facebook.jpg" alt="imagem logo Facebook" class="contato__link-img">
+            </a>
+            <a href="https://www.instagram.com/simoneveberr/" target ="_blank" class = "contato__link">
+                <img src="../assets/img/Instragram.jpg" alt="imagem logo Instragram" class="contato__link-img">
+            </a>
+        </div>
+        <div class="contato__informacoes">
+            <p class="contato__descricao">
+                &copy;SimoneVeber 2022 <br>
+                Endereço: Rua José Boschetti, 268 - Apto 31 <br>
+                Bairo Madureira | Caxias do Sul
+            </p>
+        </div>
+    </footer>
+    <script src="../assets/js/comnprar-vender.js"></script>
+    <script src="../script/agendamento.js"></script>
+</body>
+</html>

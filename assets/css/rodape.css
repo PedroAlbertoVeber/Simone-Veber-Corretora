@@ -1,0 +1,50 @@
+.contato {
+    background-color: #142a45;
+    margin-top: 5rem;
+}
+
+.contato__titulo {
+    font-family: 'Updock', cursive;
+    color: #FFF;
+    padding: 2rem;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contato__redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato__link {
+    transform: scale(0.4);
+    transition: all 0.2s;
+}
+
+.contato__link:hover {
+    transform: scale(0.5);
+}
+
+.contato__informacoes {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.contato__descricao {
+    color: #CCC;
+    text-align: center;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 720px) {
+    .contato__redes {
+        flex-direction: row;
+    }
+}

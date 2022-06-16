@@ -1,0 +1,88 @@
+.cabecalho {
+    background-image: url('../img/predios-mobile.jpg');
+    height: 400px;
+    background-position-y: 0px;
+    background-size: cover;
+}
+
+.cabecalho__titulo-main {
+    color: #fff;
+    font-family: 'Updock', cursive;
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.cabecalho__titulo-sub {
+    font-size: 3rem;
+    font-family: 'Updock', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+.cabecalho__menu-nav {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.cabecalho__menu-link {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    width: inherit;
+}
+
+.cabecalho__menu-item:hover {
+    background-color: rgba(200,200,200,.4);
+}
+
+.cabecalho__menu-item {
+    padding: 0.5rem;
+    text-align: center;
+    width: inherit;
+    transition: all 0.3s;
+}
+
+.cabecalho__navegacao {
+    justify-content: center;
+    margin-top: 4.7rem;
+}
+
+@media screen and (min-width: 750px) {
+    .cabecalho {
+        height: 300px;
+        background-position-y: 400px;
+        position: relative;
+    }
+
+    .cabecalho__titulo {
+        position: absolute;
+        left: 28.5%;
+        top: 50px;
+    }
+
+    .cabecalho__navegacao {
+        top: -75px;
+        position: absolute;
+        width: 100%;
+        
+    }
+
+    .cabecalho__menu {
+        width: calc(100vw / 3);
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .cabecalho {
+        background-position-y: 650px;
+    }
+
+    .cabecalho__titulo {
+        left: 37.5%;
+    }
+}

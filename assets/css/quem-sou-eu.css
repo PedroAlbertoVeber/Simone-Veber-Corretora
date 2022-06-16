@@ -1,0 +1,34 @@
+.conhecendo {
+    background-color: #FFF;
+}
+
+.conhecendo__titulo {
+    font-family: 'Updock', cursive;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.conhecendo__texto {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.conhecendo__descricao {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #222;
+    text-indent: 2rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 720px) {
+    .conhecendo__texto {
+        width: 80%;
+        max-width: 1000;
+    }
+}
+
